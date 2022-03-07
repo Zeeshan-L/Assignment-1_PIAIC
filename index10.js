@@ -1,0 +1,10 @@
+let a;
+document.write(`Value after variable declaration is ${a}`);
+let b = 5;
+document.write(`<br>Initial value:${b}`);
+document.write(`<br> Value after increment is:${++b} `);
+let c = b + 7;
+document.write(`<br>Value after addition is:${c}`);
+document.write(`<br>value after decrement is ${--c}`);
+let d = c % 3;
+document.write(`<br>The remainder is: ${d}`);
