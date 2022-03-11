@@ -1,6 +1,5 @@
 //question 7
-const heading = document.getElementById("heading");
-document.write(heading);
+document.write(`<h1>"Rules for naming JS variables"</h1>`);
 document.write("<br> Variable names can only contain,numbers,$ and _.");
 document.write("<br> For example $my_1stVariable.");
 document.write("<br> Variable must begin with a letter,$ or _.");
